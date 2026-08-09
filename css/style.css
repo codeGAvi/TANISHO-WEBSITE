@@ -103,7 +103,7 @@ a {
 }
 
 .logo-img {
-  width: 160px;
+  width: 190px;
   height: auto;
   display: block
   object-fit: contain;
@@ -1137,6 +1137,6 @@ a {
 }
 @media (max-width: 600px) {
     .logo-img {
-        width: 115px;
+        width: 150px;
     }
 }
