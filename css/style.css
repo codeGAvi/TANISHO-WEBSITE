@@ -554,6 +554,38 @@ a {
   color: var(--gold);
   margin-bottom: 16px;
 }
+/* MRP + Discount styling */
+.product-price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.product-price-row .product-price {
+  margin-bottom: 0;
+}
+
+.old-mrp {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--gray-text);
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.size-price-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.size-price-wrap .old-mrp {
+  font-size: 0.68rem;
+  margin-left: 0;
+}
 
 .product-price span {
   font-size: 0.75rem;
