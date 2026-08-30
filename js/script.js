@@ -1,3 +1,14 @@
+// WhatsApp Click Tracking (Meta Pixel + GA4)
+function trackWhatsAppClick(source) {
+  if (typeof fbq !== 'undefined') {
+    fbq('track', 'Contact', { content_name: source });
+  }
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'whatsapp_click', { source: source });
+  }
+}
+
+
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
 const lightboxClose = document.getElementById('lightboxClose');
