@@ -1186,3 +1186,10 @@ a {
   grid-template-columns: minmax(280px, 440px);
   justify-content: center;
 }
+
+.size-note {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--gray-text);
+  margin-left: 4px;
+}
