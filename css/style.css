@@ -1179,3 +1179,10 @@ a {
         width: 150px;
     }
 }
+
+/* Single-product layout (Raw Makhana only) */
+.products-grid,
+.combos-grid {
+  grid-template-columns: minmax(280px, 440px);
+  justify-content: center;
+}
